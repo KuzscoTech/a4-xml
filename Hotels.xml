@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns="http://example.com/hotels">
+  <Hotel id="H001">
+    <Name>Sunset Resort</Name>
+    <City>Phoenix</City>
+    <PricePerNight currency="USD">149.99</PricePerNight>
+    <Rating>4.3</Rating>
+    <Rooms>120</Rooms>
+    <Amenities>
+      <Amenity>WiFi</Amenity>
+      <Amenity>Pool</Amenity>
+      <Amenity>Spa</Amenity>
+    </Amenities>
+  </Hotel>
+  <Hotel id="H002">
+    <Name>Desert Oasis</Name>
+    <City>Tempe</City>
+    <PricePerNight currency="USD">99.00</PricePerNight>
+    <Rating>3.8</Rating>
+    <Rooms>80</Rooms>
+    <Amenities>
+      <Amenity>Breakfast</Amenity>
+      <Amenity>Gym</Amenity>
+    </Amenities>
+  </Hotel>
+  <Hotel id="H003">
+    <Name>Grand Cactus</Name>
+    <City>Scottsdale</City>
+    <PricePerNight currency="USD">219.50</PricePerNight>
+    <Rating>4.9</Rating>
+    <Rooms>250</Rooms>
+    <Amenities>
+      <Amenity>Valet</Amenity>
+      <Amenity>Golf</Amenity>
+      <Amenity>Concierge</Amenity>
+    </Amenities>
+  </Hotel>
+</Hotels>

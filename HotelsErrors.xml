@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns="http://example.com/hotels">
+  <!-- Multiple schema violations are intentional for testing -->
+  <Hotel id="H00A">
+    <!-- id does not match pattern H\d{3} -->
+    <!-- Missing required Name element -->
+    <City>Phoenix</City>
+    <PricePerNight currency="CAD">-10.00</PricePerNight>
+    <!-- currency not in enumeration, negative price -->
+    <Rating>6.2</Rating> <!-- rating > 5 -->
+    <Rooms>-5</Rooms>    <!-- negative rooms -->
+    <Amenities>
+      <Amenity>WiFi</Amenity>
+    </Amenities>
+  </Hotel>
+  <Hotel id="H004">
+    <Name>Broken Inn</Name>
+    <City>Nowhere</City>
+    <PricePerNight currency="USD">50.123</PricePerNight> <!-- too many fraction digits -->
+    <Rating>-1</Rating> <!-- below min -->
+    <Rooms>ten</Rooms>  <!-- not a number -->
+  </Hotel>
+</Hotels>
